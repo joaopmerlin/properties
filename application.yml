@@ -14,8 +14,3 @@ logging:
         security: debug
         web: debug
         data: debug
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://10.255.0.67:8761/eureka/
