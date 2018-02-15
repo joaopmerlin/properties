@@ -1,7 +1,7 @@
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.3.129:8080/auth/realms/master/protocol/openid-connect/userinfo
+      userInfoUri: http://192.168.3.195:8080/auth/realms/master/protocol/openid-connect/userinfo
       
 management:
   security:
