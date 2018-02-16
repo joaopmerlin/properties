@@ -2,7 +2,11 @@ security:
   oauth2:
     resource:
       userInfoUri: http://192.168.3.195:8080/auth/realms/master/protocol/openid-connect/userinfo
-      
+    client:
+      accessTokenUri: http://192.168.3.195:8080/auth/realms/master/protocol/openid-connect/token
+      userAuthorizationUri: http://192.168.3.195:8080/auth/realms/master/protocol/openid-connect/authorize
+      clientId: viasoft
+
 management:
   security:
     enabled: false      
