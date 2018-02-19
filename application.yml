@@ -40,10 +40,6 @@ spring:
     host: 192.168.3.195
     port: 6379
 
-ribbon:
-  eureka:
-    enabled: false
-
 keycloak:
   ribbon:
     listOfServers: http://192.168.3.195:8080
