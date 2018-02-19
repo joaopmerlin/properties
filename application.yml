@@ -46,6 +46,13 @@ KEYCLOACK:
   admin:
     username: admin
     password: admin
+
+keycloak:
+  ribbon:
+    listOfServers: http://192.168.3.195:8080
+  admin:
+    username: admin
+    password: admin
     
 elastic:
   cluster:
