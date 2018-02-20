@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.3.163?useSSL=false
