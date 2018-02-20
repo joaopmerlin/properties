@@ -7,8 +7,6 @@ jms:
   password:
 
 spring:
-  datasource:
-    url: jdbc:mysql://192.168.3.195/VIASELL?useSSL=false
   jpa:
     show-sql: true
     properties:
@@ -28,3 +26,6 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
+
+flyway:
+  schemas: VIASELL
