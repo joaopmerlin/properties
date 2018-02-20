@@ -29,4 +29,4 @@ logging:
 
 flyway:
   schemas: VIASELL
-  ignore-failed-future-migration: true
+  validate-on-migrate: false
