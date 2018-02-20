@@ -18,8 +18,6 @@ spring:
         use_sql_comments: true
         type: trace
         generate_statistics: true
-    hibernate:
-      ddl-auto: update
 
 logging:
   level:
