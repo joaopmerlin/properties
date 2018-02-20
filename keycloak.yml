@@ -4,7 +4,7 @@ server:
   
 spring:
   datasource:
-    url: jdbc:mysql://192.168.3.195/keycloak?useSSL=false
+    url: jdbc:mysql://192.168.3.195/KEYCLOAK?useSSL=false
 
 resteasy:
   deployment:
