@@ -4,5 +4,5 @@ server:
 zuul:
   routes:
     component:
-      path: /master/**
-      serviceId: master
+      path: /keycloak/**
+      serviceId: keycloak
