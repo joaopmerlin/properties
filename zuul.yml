@@ -6,4 +6,3 @@ zuul:
     keycloak:
       path: /keycloak/**
       serviceId: keycloak
-      stripPrefix: true
