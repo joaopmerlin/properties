@@ -5,4 +5,5 @@ zuul:
   routes:
     keycloak:
       path: /keycloak/**
-      serviceId: KEYCLOAK
+      serviceId: keycloak
+      stripPrefix: true
