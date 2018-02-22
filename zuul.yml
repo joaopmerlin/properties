@@ -3,6 +3,6 @@ server:
     
 zuul:
   routes:
-    component:
-      path: /master/**
-      serviceId: master
+    keycloak:
+      path: /keycloak/**
+      serviceId: keycloak
