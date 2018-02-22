@@ -48,8 +48,9 @@ spring:
     port: 6379
   rabbitmq:
     host: ${server.ip}
-  kafka:
-    bootstrap-servers: ${server.ip}:9092
+  cloud:
+    zookeeper:
+      connectString: 192.168.3.195:2181
 
 keycloak:
   admin:
