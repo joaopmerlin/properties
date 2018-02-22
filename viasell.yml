@@ -7,6 +7,8 @@ jms:
   password:
 
 spring:
+  datasource:
+    url: jdbc:mysql://192.168.3.195/viasell?useSSL=false
   jpa:
     show-sql: true
     properties:
