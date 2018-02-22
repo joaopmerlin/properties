@@ -7,9 +7,6 @@ jms:
   password:
 
 spring:
-  flyway:
-    schemas: VIASELL
-    validate-on-migrate: false
   jpa:
     show-sql: true
     properties:
@@ -30,3 +27,6 @@ logging:
             sql:
               BasicBinder: TRACE
 
+flyway:
+    schemas: VIASELL
+    validate-on-migrate: false
