@@ -48,6 +48,8 @@ spring:
     port: 6379
   rabbitmq:
     host: ${server.ip}
+  kafka:
+    bootstrap-servers: ${server.ip}:9092
 
 keycloak:
   admin:
