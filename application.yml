@@ -49,8 +49,15 @@ spring:
   rabbitmq:
     host: ${server.ip}
   cloud:
-    zookeeper:
-      connectString: 192.168.3.195:2181
+    bus:
+      enabled: true
+    stream:
+      kafka:
+        binders:
+          zkNodes: ${server.ip}
+          defaultZkPort: 2181
+          brokers: ${server.ip}
+          defaultBrokerPort: 9092
 
 keycloak:
   admin:
