@@ -48,16 +48,6 @@ spring:
     port: 6379
   rabbitmq:
     host: ${server.ip}
-  cloud:
-    bus:
-      enabled: true
-    stream:
-      kafka:
-        binder:
-          zkNodes: ${server.ip}
-          defaultZkPort: 2181
-          brokers: ${server.ip}
-          defaultBrokerPort: 9092
 
 keycloak:
   admin:
