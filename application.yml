@@ -15,6 +15,7 @@ management:
     enabled: false      
 
 logging:
+  file: application.log
   level:
     org:
       springframework:
