@@ -1,5 +1,0 @@
-server:
-    port: 8001
-
-flyway:
-    enabled: false

@@ -1,8 +1,0 @@
-server:
-  port: 8000
-    
-zuul:
-  routes:
-    keycloak:
-      path: /keycloak/**
-      serviceId: keycloak
